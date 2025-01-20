@@ -9,6 +9,6 @@ class Solution:
                 d[val] = i
 
 # Main
-nums = [1, 2, 3, 1]
-target = 6
+nums = [2, 7, 11, 14]
+target = 9
 print(Solution().twoSum(nums, target))
