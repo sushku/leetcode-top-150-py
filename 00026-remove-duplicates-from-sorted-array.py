@@ -17,7 +17,6 @@ class Solution:
                 k += 1
             else:
                 i += 1
-        print(k, nums)
         return k
 
 nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]

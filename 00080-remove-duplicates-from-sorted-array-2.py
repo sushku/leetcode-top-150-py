@@ -2,6 +2,21 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        """
+        More optimized solution
+        """
+        k = 2
+        for i in range(2, len(nums)):
+            if nums[i] != nums[k-2]:
+                nums[k] = nums[i]
+                k += 1
+        print(k, nums)
+        return k
+
+    def removeDuplicates1(self, nums: List[int]) -> int:
+        """
+        Initially accepted solution
+        """
         i, k = 0, 0
         prevNum = "Not set"
         while i < len(nums):

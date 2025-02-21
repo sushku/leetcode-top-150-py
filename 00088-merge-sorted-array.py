@@ -14,7 +14,6 @@ class Solution(object):
                 nums1[k] = nums1[i]
                 i = i - 1
             k = k - 1
-        print(nums1)
 
 nums1, m = [-3, -2, -1, 0, 0, 0, 0], 4
 nums2, n = [1, 1, 1], 3

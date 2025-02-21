@@ -10,7 +10,6 @@ class Solution:
                 k += 1
             else:
                 i += 1
-        print(k, nums)
         return k
 
 nums, val = [2, 2, 2, 8, 9, 7, 7, 7], 2
